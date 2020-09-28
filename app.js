@@ -4,7 +4,7 @@ const mult = require ('./multiplicar');
 
 console.log(mult);
 
-/*
+/*sdgsdgf
 const primero = R.add(1);
 
 console.log(R);
