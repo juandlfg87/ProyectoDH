@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: black;
+    
+}
+
+header{
+    background-color: #FFF15A;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top:1%;
+    height: 100px;
+}
+
+.letra-gris{
+    color: grey
+}
+
+div{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul, form, p, li{
+    display: inline-block
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+img{
+    width:10px
+}
+
+a img{
+    margin-left: 5px;
+    width:15px
+}
+
+form{
+    width: 60%;
+}
+
+form * {
+    border-style: none;
+    background-color: white;
+}
+
+button {
+    border-left-style: inset;
+    width: 3%;
+    height: 30px;
+}
+
+input {
+    width: 97%;
+    height: 30px;
+}
