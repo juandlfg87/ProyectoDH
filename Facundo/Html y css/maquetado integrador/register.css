@@ -36,6 +36,11 @@ body{
     
 }
 
+.HMN li label{
+    font-weight: bold;
+    font-size: 19px;
+}
+
 .HMN{
     margin-left: 20px;
     display: inline-block;
@@ -61,7 +66,7 @@ body{
     margin-right: 30%;
 }
 
-label{
+form label{
     letter-spacing: 2px;
     font-size: 18px;
 }
@@ -143,4 +148,23 @@ input{
     font-size: 19px;
     margin-left: 20%;
     display: inline;
+}
+
+.menu-content{
+display: none;
+}
+
+.checkbox-trigger{
+    position: absolute;
+    left: -395px;
+    top: 105px;
+    opacity: 0;
+}
+
+.checkbox-trigger:checked + .menu-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 165px;
+  top: 145px;
 }
