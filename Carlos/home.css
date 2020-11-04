@@ -22,6 +22,7 @@ padding-left: 10px;
 header .primera ul li a{
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 header img{
     height: 48px;
@@ -32,7 +33,7 @@ body{
     font-family: "Roboto", sans-serif;
 }
 header .segundo{
-    padding:5px 15px 0px 15px;
+    padding:30px 15px 30px 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -50,6 +51,7 @@ header .segundo ul li{
 header .segundo ul li a{
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 
 
@@ -172,3 +174,115 @@ header .segundo ul li a{
     color: black;
     font-size: 23px;
 }
+
+.men{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.container2{
+    margin: auto;
+    
+    width: 95%;
+    padding: 30px;
+}
+.slider2{
+    position:relative;
+    width: 95%;
+    height: 350px;
+   
+}
+.slider2 li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    transition: opacity .5s;
+}
+.slider2 li img{
+    width: 100%;
+    hyphens:350px;
+    object-fit: cover;
+}
+.slider2 li:first-child{
+    opacity: 1;
+}
+.menu2 li {
+    display: inline-block;
+    text-align: center;
+   
+}
+.menu2 li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 0.2px;
+    height: 0.2px;
+    font-size: 10px;
+    border-radius: 100%;
+}
+#h1nl{
+    font-weight: bold;
+     width: 100%;
+     margin: 0px;
+     padding-top: 20px;
+     font-weight: bold;
+     padding-left: 50px;
+     background-color: #b5b5b5;
+     color: black;
+ }
+ 
+ #pNl{
+     display: inline;
+     font-size: 20px;
+     padding-top: 0;
+     font-weight: bold;
+     padding-left: 150px;
+     
+ }
+ .formuNL{
+     
+     display: inline;
+ }
+ .formuNL input{
+     height: 45px;
+     display: inline;
+     width: 20%;
+     margin-left:5% ;
+ }
+ .enviarNL{
+     width: 10%;
+     font-size: 35;
+     height: 40px;
+     border-radius: 1px;
+     border: black 1px;
+     background: black;
+     display: inline;
+     margin-left: 5%;
+     color: white;
+     font-weight: bold;
+     letter-spacing: 0.5px;
+ }
+ 
+ .newsletter{
+     
+     background-color: #b5b5b5;
+ }
+ .listaFooter1 li{
+     
+     text-align: center;
+     font-size: 19px;
+     margin-left: 20%;
+     display: inline;
+ }
+ #logo{
+     width:14% ;
+     height:48px ;
+ }
